@@ -1,0 +1,12 @@
+{
+  "title": "gregoire",
+  "meta":
+  {
+    "description": "This is a description",
+    "version": "default"
+  },
+  "content":
+  {
+    "title": "ceci est un article"
+  }
+}
