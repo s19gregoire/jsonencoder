@@ -1,4 +1,4 @@
-**To create a page **
+To create a page
 
 To create a page you have to add this
 
