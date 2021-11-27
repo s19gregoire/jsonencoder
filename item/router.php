@@ -1,4 +1,5 @@
 <?php
+require "type.php";
 class routing
 {
     public $url;
@@ -18,6 +19,10 @@ class view
     public $see;
     function watcher($see)
     {
-        var_dump(json_decode(file_get_contents("page/index.json")));
+        $data = json_decode(file_get_contents("page/index.json"));
+        $rendered = json_decode(file_get_contents("page/style_index.json"));
+        var_dump($data);
+        var_dump($rendered);
+        argprint($data->content, $rendered);
     }
 }

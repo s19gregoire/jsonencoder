@@ -7,6 +7,13 @@
   },
   "content":
   {
-    "title": "ceci est un article"
+    "a": {
+      "title": "Ceci est un article",
+      "description": "voici un nouveau article"
+    },
+    "b": {
+    "title": "Ceci est un article",
+    "description": "voici un nouveau article"
+  }
   }
 }
